@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_garlic.mk
+    $(LOCAL_DIR)/aosp_garlic.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_garlic-eng \
-    lineage_garlic-user \
-    lineage_garlic-userdebug
+    aosp_garlic-eng \
+    aosp_garlic-user \
+    aosp_garlic-userdebug
