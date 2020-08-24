@@ -33,7 +33,7 @@ TARGET_BOOT_ANIMATION_RES := 1080
 # Set those variables here to overwrite the inherited values.
 BOARD_VENDOR := yu
 PRODUCT_DEVICE := garlic
-PRODUCT_NAME := derp_garlic
+PRODUCT_NAME := aosip_garlic
 PRODUCT_BRAND := yu
 PRODUCT_MODEL := YU Yureka Black
 PRODUCT_MANUFACTURER := yu

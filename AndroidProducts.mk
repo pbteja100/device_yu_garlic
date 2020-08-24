@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_garlic.mk
+    $(LOCAL_DIR)/aosip_garlic.mk
 
 COMMON_LUNCH_CHOICES := \
-    derp_garlic-eng \
-    derp_garlic-user \
-    derp_garlic-userdebug
+    aosip_garlic-eng \
+    aosip_garlic-user \
+    aosip_garlic-userdebug
