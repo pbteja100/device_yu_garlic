@@ -80,6 +80,17 @@ TW_EXCLUDE_SUPERSU := true
 TW_NEW_ION_HEAP := true
 TW_USE_TOOLBOX := true
 TW_IGNORE_MISC_WIPE_DATA := true
+TW_INCLUDE_NTFS_3G := true
+
+# Enable Logcat in twrp
+TWRP_INCLUDE_LOGCAT := true
+TARGET_USES_LOGD := true
+
+# Exclude Twrp app
+TW_EXCLUDE_TWRPAPP := true
+
+# adbd insecure
+BOARD_ALWAYS_INSECURE := true
 
 # Disable Mouse Cursor
 TW_INPUT_BLACKLIST := "hbtp_vm"
