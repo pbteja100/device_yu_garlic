@@ -17,3 +17,12 @@ PRODUCT_MODEL := YU Yureka Black
 PRODUCT_MANUFACTURER := yu
 
 PRODUCT_GMS_CLIENTID_BASE := android-yu
+
+## Packages included only for eng builds with Multirom.
+# libbootimg
+# bbootimg - dynamic binary for TWRP
+PRODUCT_PACKAGES_ENG += \
+    libbootimg \
+    bbootimg
+
+
